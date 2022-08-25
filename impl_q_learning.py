@@ -64,7 +64,7 @@ def main():
 
 
 if __name__ == '__main__':
-    EPSILON = 0.1
-    ALPHA = 0.5
+    EPSILON = 0.2
+    ALPHA = 0.2
     GAMMA = 0.9
     main()

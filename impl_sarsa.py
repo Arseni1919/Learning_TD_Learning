@@ -34,7 +34,7 @@ def run_sarsa(q_func, env):
             q_func[state[0], state[1], action] = new_q
 
         # render + metrics
-        if i % 20 == 0 or episodes > 250:
+        if i % 20 == 0 or episodes > 450:
             env.render()
 
         total_return += reward
