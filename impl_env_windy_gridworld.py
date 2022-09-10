@@ -102,7 +102,7 @@ class WindyGridworldEnv:
     def wind_correction(self):
         curr_x, curr_y = self.state
         wind_strength = self.wind[curr_x]
-        wind_strength = random.choice([wind_strength, wind_strength - 1, wind_strength + 1])
+        # wind_strength = random.choice([wind_strength, wind_strength - 1, wind_strength + 1])
         curr_y = min(self.high - 1, curr_y + wind_strength)
         curr_y = max(0, curr_y)
 
